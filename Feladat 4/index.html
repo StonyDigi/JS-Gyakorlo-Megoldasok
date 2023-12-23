@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <title>Feladat 4</title>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h3>Feladat 4 - Jelszó Generálás</h3>
+  <label for="passwordLength">Jelszó hossza:</label>
+  <input type="number" id="passwordLength" class="form-control mb-2" placeholder="Hossz">
+
+  <button onclick="generatePassword()" class="btn btn-primary">Generálás</button>
+
+  <div id="generatedPassword" class="mt-3"></div>
+
+  <script src="generatePassword.js"></script>
+</div>
